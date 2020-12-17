@@ -1,5 +1,3 @@
-# PythonCorona
-
 # Corona new death and new case predictor
 ---------------------------------
 
@@ -8,5 +6,39 @@ this project contains some algorithms to learn models so that it can predict the
 There is a algorithms names AutoReg which can predict 14 days later.
 
  # How does it work?
- At first, you shoud have jupyter notebook to use this code better,
- Second, you should run each cell to show you a dropdown which you can select country and show the results in graphs.
+ at first, you shoud have jupyter notebook to use this
+ some example of outputs:
+ 
+ ## AutoReg
+ this algorithm can predict 14 days
+ ### new cases for Belgium
+ 
+ ![alt text](https://github.com/Mehdi-Sheikh/PythonCorona/blob/main/images/autoreg/new%20case.PNG?raw=true)
+ 
+ 
+ ### new death fot Bosnia and Herzegovina
+  ![alt text](https://github.com/Mehdi-Sheikh/PythonCorona/blob/main/images/autoreg/new%20deaths.PNG?raw=true)
+ 
+ 
+ ## linear regression
+ ### new cases fot belgium
+ 
+ Leanir regression new case
+ ![alt text](https://github.com/Mehdi-Sheikh/PythonCorona/blob/main/images/leaniear%20regression/new%20case.PNG?raw=true)
+ 
+ 
+ ### new death fot Greece
+  ![alt text](https://github.com/Mehdi-Sheikh/PythonCorona/blob/main/images/leaniear%20regression/new%20death.PNG?raw=true)
+  
+  
+ ## Ridge
+ ### new cases fot Bosnia and Gerzegivina
+ 
+ ![alt text](https://github.com/Mehdi-Sheikh/PythonCorona/blob/main/images/ridge/new%20case.PNG?raw=true)
+ 
+ 
+ ### new death fot Cyprus
+  ![alt text](https://github.com/Mehdi-Sheikh/PythonCorona/blob/main/images/ridge/new%20death.PNG?raw=true)
+ 
+ 
+ 
